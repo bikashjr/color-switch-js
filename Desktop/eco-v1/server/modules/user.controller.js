@@ -1,0 +1,13 @@
+const Model = require ('./user.model')
+
+
+
+
+const create = (payload) =>{
+    return Model.create(payload)
+}
+
+const login = async(email,password) =>{}
+
+
+module.exports = { create , login }
